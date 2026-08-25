@@ -11,3 +11,4 @@ jobs:
       - uses: esphome/build-action@v2
         with:
           config_file: watchy-v2.yaml
+          cache: false # Полностью отключаем проблемный кэш GitHub
