@@ -1,0 +1,28 @@
+WIFI_SSID: "HUAWEI-001KM2"
+WIFI_PASSWORD: "KUKUJOPTA"
+OTA_PASSWORD: "asdf1234"
+WEATHER_KEY: "" # Вставьте токен OpenWeather сюда, когда зарегистрируетесь
+WEATHER_CITY_ID: "479561" # Россия/Сыктывкар
+UNITS: metric
+LANG: en 
+TIME_ZONE: Europe/Moscow 
+SNTP_SERVER_1: "0.pool.ntp.org"
+SNTP_SERVER_2: "1.pool.ntp.org"
+SNTP_SERVER_3: "2.pool.ntp.org"
+LATITUDE: "61.6685" 
+LONGITUDE: "50.8351"
+QR_WEBSITE_URL: "https://vk.com" # Можете заменить на свою соцсеть
+QR_RSS_URL: ""
+QR_VCARD: |-
+  BEGIN:VCARD
+  VERSION:3.0
+  N:Lastname;Firstname;;;
+  EMAIL:karambat@gmail.com
+  END:VCARD
+BIRTHDAY: "0"
+BIRTHMONTH: "0"
+BIRTHDAY1: "0"
+BIRTHMONTH1: "0"
+BIRTHDAY2: "0"
+BIRTHMONTH2: "0"
+HOME_ASSISTANT_API_KEY: "your-random-key-here"
