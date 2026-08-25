@@ -1,0 +1,13 @@
+name: ESPHome Build v2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: esphome/build-action@v2
+        with:
+          config_file: watchy-v2.yaml
